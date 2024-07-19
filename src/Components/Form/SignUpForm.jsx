@@ -33,20 +33,42 @@ function SignUpForm() {
         text="Nationality"
         id="nationality"
       />
+
+      <Input
+        placeholder="+234 --- --- ----"
+        type="phone"
+        text="Phone Number"
+        id="Phone Number"
+      />
+
+      <Input
+        placeholder="Adegbabo ijinle Abule Primary School"
+        type="text"
+        text="Name of School"
+        id="School"
+      />
       <Input
         placeholder="enter..."
         type="password"
         className=""
         text="Password"
       />
+      <Input
+        placeholder="enter..."
+        type="password"
+        id="password"
+        text="Confirm password"
+      />
       <div className=" device md:flex md:justify-between items-center text-center">
         <div className="flex">
           <input type="checkbox" name="" id="" />
-          <p className="text-[#777777]"> Remember this device</p>
+          <p className="text-[#777777]">
+            By clicking Create Account, you confirm that you have
+            read,understood and agree to the{" "}
+            <a href="http://">Privacy Policy</a> and
+            <a href="http://"> Term of Service</a>
+          </p>
         </div>
-        <a href="http://" className="text-[#0964D7] text-center items-center">
-          Forgot Password?
-        </a>
       </div>
       <Button
         className="bg-[#0964D7] pl-[45%] rounded-xl py-3 text-[#FFFF] mt-8 mb-7"
